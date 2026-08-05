@@ -6,6 +6,7 @@ import java.util.Map;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AddFile {
+
     private String path;
     private Map<String, String> partitionValues;
     private long size;
