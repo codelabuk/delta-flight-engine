@@ -11,6 +11,9 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Parses Single Delta commit file into list of actions
+ */
 public class CommitLogReader {
     private final ObjectMapper mapper = new ObjectMapper();
 

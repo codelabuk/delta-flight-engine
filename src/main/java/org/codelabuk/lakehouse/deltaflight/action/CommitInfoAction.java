@@ -1,6 +1,5 @@
 package org.codelabuk.lakehouse.deltaflight.action;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -8,6 +7,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Operational Info about a commit
+ */
 @JsonIgnoreProperties(ignoreUnknown = false)
 public class CommitInfoAction {
 
