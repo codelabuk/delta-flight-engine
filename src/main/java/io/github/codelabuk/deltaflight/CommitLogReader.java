@@ -1,7 +1,7 @@
-package org.codelabuk.lakehouse.deltaflight;
+package io.github.codelabuk.deltaflight;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.codelabuk.lakehouse.deltaflight.action.SingleAction;
+import io.github.codelabuk.deltaflight.action.SingleAction;
 
 import java.io.BufferedReader;
 import java.io.IOException;

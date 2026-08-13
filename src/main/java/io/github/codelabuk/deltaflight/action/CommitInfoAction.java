@@ -1,4 +1,4 @@
-package org.codelabuk.lakehouse.deltaflight.action;
+package io.github.codelabuk.deltaflight.action;
 
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

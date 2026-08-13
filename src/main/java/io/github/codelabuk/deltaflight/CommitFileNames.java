@@ -1,4 +1,4 @@
-package org.codelabuk.lakehouse.deltaflight;
+package io.github.codelabuk.deltaflight;
 
 import java.nio.file.Path;
 import java.util.regex.Pattern;

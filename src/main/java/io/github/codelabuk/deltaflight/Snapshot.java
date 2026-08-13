@@ -1,8 +1,8 @@
-package org.codelabuk.lakehouse.deltaflight;
+package io.github.codelabuk.deltaflight;
 
-import org.codelabuk.lakehouse.deltaflight.action.AddFile;
-import org.codelabuk.lakehouse.deltaflight.action.MetadataAction;
-import org.codelabuk.lakehouse.deltaflight.action.ProtocolAction;
+import io.github.codelabuk.deltaflight.action.AddFile;
+import io.github.codelabuk.deltaflight.action.MetadataAction;
+import io.github.codelabuk.deltaflight.action.ProtocolAction;
 
 import java.util.Collection;
 import java.util.Collections;
