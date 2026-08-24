@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  */
 final class CommitFileNames {
     private static final int VERSION_WIDTH = 20;
-    private static final String REGEX_PATTERN = "\\d{20}\\.json";
+    private static final String REGEX_PATTERN = "\\d{20}\\.json"; // 20 digit zero padded json regex
     private static final Pattern COMMIT_JSON = Pattern.compile(REGEX_PATTERN);
 
     private CommitFileNames() {
