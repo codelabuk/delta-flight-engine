@@ -1,4 +1,4 @@
-package io.github.codelabuk.deltaflight.action;
+package io.github.codelabuk.deltaflight.log.action;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

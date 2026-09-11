@@ -1,4 +1,4 @@
-package io.github.codelabuk.deltaflight;
+package io.github.codelabuk.deltaflight.log;
 
 import java.nio.file.Path;
 import java.util.regex.Pattern;
@@ -14,15 +14,15 @@ final class CommitFileNames {
     private CommitFileNames() {
     }
 
-    static String jsonFileName(long version) {
+    public static String jsonFileName(long version) {
         return String.format("%0" + VERSION_WIDTH + "d.json", version);
     }
 
-    static boolean isCommitJson(Path path) {
+    public static boolean isCommitJson(Path path) {
         return COMMIT_JSON.matcher(path.getFileName().toString()).matches();
     }
 
-    static long parseVersion(Path path) {
+    public static long parseVersion(Path path) {
         String name = path.getFileName().toString();
         return Long.parseLong(name.substring(0, VERSION_WIDTH));
     }

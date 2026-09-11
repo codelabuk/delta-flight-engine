@@ -1,9 +1,9 @@
-package io.github.codelabuk.deltaflight;
+package io.github.codelabuk.deltaflight.log;
 
-import io.github.codelabuk.deltaflight.action.AddFile;
-import io.github.codelabuk.deltaflight.action.MetadataAction;
-import io.github.codelabuk.deltaflight.action.ProtocolAction;
-import io.github.codelabuk.deltaflight.action.SingleAction;
+import io.github.codelabuk.deltaflight.log.action.AddFile;
+import io.github.codelabuk.deltaflight.log.action.MetadataAction;
+import io.github.codelabuk.deltaflight.log.action.ProtocolAction;
+import io.github.codelabuk.deltaflight.log.action.SingleAction;
 
 import java.io.IOException;
 import java.nio.file.Files;

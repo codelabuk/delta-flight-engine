@@ -1,4 +1,4 @@
-package io.github.codelabuk.deltaflight.action;
+package io.github.codelabuk.deltaflight.log.action;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -11,7 +11,7 @@ public class SingleAction {
     private RemoveFile remove;
     @JsonProperty("commitInfo")
     private CommitInfoAction commitInfo;
-    @JsonProperty("metadata")
+    @JsonProperty("metaData")
     private MetadataAction metadata;
     @JsonProperty("protocol")
     private ProtocolAction protocol;
