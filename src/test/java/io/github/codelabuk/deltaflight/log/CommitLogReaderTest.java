@@ -23,7 +23,7 @@ public class CommitLogReaderTest {
     }
 
     @Test
-    public void firstcommit_hasexpected_Action_tyypes() throws Exception{
+    public void firstcommit_hasexpected_Action_types() throws Exception{
         List<SingleAction> actions = reader.read(fixture("00000000000000000000.json"));
         Assertions.assertNotNull(actions.get(0).getCommitInfo(), "line 1 should be committed");
         Assertions.assertNotNull(actions.get(1).getProtocol(), "line 2 should be protocol");

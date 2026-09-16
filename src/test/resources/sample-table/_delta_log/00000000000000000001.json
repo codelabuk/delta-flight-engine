@@ -1,0 +1,2 @@
+{"commitInfo":{"timestamp":1732000100000,"operation":"DELETE","operationParameters":{"predicate":"level = 'ERROR'"},"isBlindAppend":false}}
+{"remove":{"path":"level=ERROR/part-00000-abc.snappy.parquet","deletionTimestamp":1732000100000,"dataChange":true}}
